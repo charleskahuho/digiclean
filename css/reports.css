@@ -1,0 +1,123 @@
+/**
+for handling filed reports
+*/
+.busn{
+    background-color: #4f4f75;
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-block: 20px;
+    color: white;
+}
+.busn .act{
+    padding-inline: 10px;
+}
+.busn .num{
+    padding-left: 15px;
+    font-size: 30px;
+    background-color: darkcyan;
+}
+.busn .details{
+    justify-content: space-between;
+    padding-inline: 10px;
+    font-size: 20px;
+}
+.act .dive{
+    background-color: crimson;
+}
+.dive:hover{
+    background-color: rgb(131, 5, 30) !important;
+}
+
+.investigate{
+    width: 600px;
+    margin: 20px auto;
+    height: max-content;
+    background-color: darkslateblue;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 3px 5px 10px gainsboro, -5px -5px 10px gainsboro;
+}
+.investigate .top{
+    min-height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-block: 10px;
+    color: white;
+    background-color: darkslategrey;
+}
+.investigate .reason{
+    width: 100%;
+    background-color: #4f4f75;
+    padding: 10px;
+    font-size: 19px;
+    letter-spacing: .8px;
+    line-height: 20px;
+    text-transform: none;
+    margin-block: 15px;
+    color: white;
+}
+
+.dark{
+    background-color: darkslategray;
+}
+.dark h2{
+    color: white;
+}
+.action{
+    padding-inline: 10px;
+    background-color: beige !important;
+}
+.investigate .action a{
+
+    width: 150px;
+    font-size: 18px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    color: white;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    text-decoration: none;
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:768px){
+    .busn{
+        display: grid;
+        grid-template-columns: auto;
+        height: max-content;
+    }
+    .busn div{
+        min-height: 50px;
+        height: max-content;
+        text-align: center;
+    }
+    .busn .details{
+        flex-direction: column;
+    }
+    .details span{
+        line-height: 40px;
+    }
+    .busn .num{
+        text-align: center;
+        justify-content: center;
+    }
+    .investigate{
+        width: 90vw;
+    }
+
+}

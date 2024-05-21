@@ -1,0 +1,33 @@
+*{
+    transition: background .5s ease;
+}
+.dark-menu{
+    background-color: rgb(139, 0, 104) !important;
+}
+.content-dark{
+    background-color: #25252b !important;
+}
+.content-dark .footer{
+    background-color: rgb(143, 137, 130) !important;
+    color: #25252b;
+}
+.content-dark .hello{
+    color: antiquewhite;
+}
+.content-dark .hello a{
+    background-color: rgb(68, 245, 83);
+    color: #25252b;
+}
+.content-dark .summary h2{
+    color: white;
+}
+.content-dark form{
+    background-color: rgb(207, 131, 195);
+}
+.content-dark .more a{
+    color: antiquewhite;
+}
+.dark-menu .links a:hover{
+    background-color: cadetblue;
+    color: white;
+}

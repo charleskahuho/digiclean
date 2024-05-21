@@ -1,0 +1,8 @@
+.session{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    min-height: 50px;
+    color: chartreuse;
+    font-size: 20px;
+}

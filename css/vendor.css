@@ -1,0 +1,111 @@
+.order{
+    display: grid;
+    grid-template-columns: 10% 60% 30% ;
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: royalblue;
+    overflow: hidden;
+    margin-block: 20px;
+}
+.order .num{
+    background-color: teal;
+    font-size: 30px;
+    color: white;
+}
+.order .details{
+    padding-inline: 15px;
+    background-color: steelblue;
+    font-size: 20px;
+    color: white;
+    padding-inline: 10px;
+}
+.order .actions{
+    padding-inline: 15px;
+
+}
+.empty{
+    display: grid;
+    grid-template-columns: auto !important;
+    place-items: center;
+    text-align: center;
+    color: white;
+    background-color: slateblue;
+}
+.details-order{
+    width: 400px;
+    height: max-content;
+    border-radius: 20px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: slateblue;
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+    margin: 20px auto;
+}
+.details-order div{
+    width: 100%;
+    min-height: 60px;
+    margin-block: 10px;
+}
+.sender, .pickup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: teal;
+    border-radius: 20px;
+    color: white;
+    padding-inline: 15px;
+}
+.pickup span:nth-child(2){
+    text-transform: capitalize;
+}
+.order-details{
+    width: 100%;
+    height: max-content;
+    background-color: slategray;
+    border-radius: 10px;
+    padding: 15px;
+}
+.order-details h4{
+    font-size: 20px;
+    color: turquoise;
+    text-decoration: underline;
+    text-transform: capitalize;
+    margin-block: 10px;
+}
+.order-details p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-block: 10px;
+    color: white;
+}
+.decide{
+    width: max-content;
+    min-width: 100px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    height: 60px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: blue;
+    /* margin-block: 20px !important; */
+    margin-bottom: 40px !important;
+}
+@media only screen and (max-width: 900px){
+    .order{
+        display: grid;
+        grid-template-columns: auto;
+        height: max-content ;
+        min-height: 60px !important;
+
+    }
+    .order div{
+        min-height: 60px;
+        height: max-content;
+        padding: 20px;
+    }
+
+}

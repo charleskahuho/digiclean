@@ -1,0 +1,81 @@
+.holder7{
+    display: grid;
+    grid-template-columns: 15% 60% 25%;
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    border-bottom: 3px solid #51515e;
+    background-color: bisque;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+.empty{
+    background-color: darkcyan;
+    border-bottom: none;
+    border-radius: 20px;
+    display: flex !important;
+    color: white;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    height: 70px !important;
+    margin-bottom: 20px;
+}
+.holder7 .num{
+    font-size: 20px;
+    background-color: rgb(111, 141, 141);
+    border-right: 1px solid #51515e;
+}
+.holder7 .email{
+    background-color: #4f4f75;
+}
+.holder7 .act{
+    padding-inline: 10px;
+}
+.act{
+    gap: 10px;
+    background-color: darkgray;
+}
+.act a{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: cadetblue;
+    color: white;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    transition:  .5s ease;
+}
+.act a:hover{
+    background-color: darkorchid;
+
+}
+a.ok{
+    background-color: rgb(27, 235, 27) !important;
+}
+a.ok:hover{
+    background-color: darkgreen !important;
+}
+
+
+@media only screen and (max-width:768px){
+    .holder7{
+        display: grid;
+        height: max-content;
+        grid-template-columns: auto ;
+    }
+    .holder7 div{
+        min-height: 50px;
+    }
+    .act{
+        padding-block: 10px;
+    }
+    .empty{
+        height: 60px !important;
+    }
+}

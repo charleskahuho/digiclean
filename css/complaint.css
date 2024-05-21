@@ -1,0 +1,51 @@
+.complaint{
+    width: 500px;
+    height: max-content;
+    border-radius: 20px;
+    background-color: seashell;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px auto;
+}
+.complaint h3{
+    font-size: 22px;
+    height: 40px;
+    margin-block: 10px;
+    background-color: rgb(85, 167, 142);
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    padding-left: 10PX;
+
+}
+.complaint P{
+    background-color: cadetblue;
+    margin-block: 10PX;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    margin-block: 20px;
+}
+.complaint h2{
+    color: rgb(252, 249, 249);
+    letter-spacing: 1px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    font-size: 24px;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    
+
+    /* background-color: blue;height: 100%; */
+}
+@media only screen and (max-width: 800px){
+    .complaint{
+        width: 90vw;
+        margin: 20px auto;
+    }
+}
